@@ -75,11 +75,11 @@
         height: 100vh;
 
         h1 {
-            font-size: 2rem;
+            font-size: 2.5rem;
         }
 
-        a{
-            padding:.3rem 1rem;
+        a.btn-light{
+            padding: .5rem 1rem;
         }
     }
 
@@ -159,6 +159,6 @@
     }
 
     .main-nav__items li{
-        padding: 1rem .35rem;
+        padding: 1rem .75rem;
     }
 }
