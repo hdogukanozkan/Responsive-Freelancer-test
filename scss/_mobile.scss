@@ -72,7 +72,19 @@
     }
 
     #header__home{
-        height: 70vh;
+        height: 80vh;
+
+        h1 {
+            font-size: 2rem;
+        }
+
+        a{
+            padding:.3rem 1rem;
+        }
+    }
+
+    #header__home .header-content{
+        padding: 10%;
     }
 
     #home__a .skills{
@@ -147,6 +159,6 @@
     }
 
     .main-nav__items li{
-        padding: 1rem 1rem;
+        padding: 1rem .35rem;
     }
 }
