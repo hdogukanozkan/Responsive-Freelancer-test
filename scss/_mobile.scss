@@ -85,7 +85,12 @@
 
     #header__home .header-content{
         padding: 5.5%;
-    }
+        position:absolute;
+        margin-top: 1.5rem;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }   
 
     #home__a .skills{
         grid-template-columns: repeat(1,1fr);
